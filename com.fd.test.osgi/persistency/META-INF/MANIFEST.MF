@@ -1,0 +1,7 @@
+Manifest-Version: 1
+Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Name: com.fd.test.osgi.persistency
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.fd.test.osgi.persistency
+Import-Package: org.osgi.framework,org.osgi.util.tracker
+
