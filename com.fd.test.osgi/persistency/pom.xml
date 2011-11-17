@@ -16,7 +16,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fd.test.osgi</groupId>
   <artifactId>persistency</artifactId>
-  <version>1.0-SNAPSHOT</version>
 
   <name>${bundle.symbolicName}</name>
 
@@ -43,5 +42,10 @@
       <optional>true</optional>
     </dependency>
   </dependencies>
-
+  <distributionManagement>
+    <site>
+      <id>website</id>
+      <url>file://H/repository/com/fd/test/com.fd.test.osgi</url>
+    </site>
+  </distributionManagement>
 </project>
